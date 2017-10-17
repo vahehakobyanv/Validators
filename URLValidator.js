@@ -10,4 +10,5 @@ class URLValidator extends Validator{
   }
 }
 let site = new URLValidator();
-console.log("https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp");
+console.log()
+console.log(site.isURL("https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"));

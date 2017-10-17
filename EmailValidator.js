@@ -10,4 +10,5 @@ class EmailValidator extends Validator{
   }
 }
 let email = new EmailValidator();
+console.log(email.isEmail("vahe@."));
 console.log(email.isEmail("vahehakobyanv@gmail.com"));

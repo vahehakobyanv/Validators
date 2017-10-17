@@ -16,4 +16,5 @@ class UsernameValidator extends Validator{
   }
 }
 let valid = new UsernameValidator();
-console.log(valid.isUserName("username"))
+console.log(valid.isUserName("username"));
+console.log(valid.isUserName("Vahe Hakobyan"));

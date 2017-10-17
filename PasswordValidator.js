@@ -12,4 +12,4 @@ class PasswordValidator extends Validator{
 	}
 }
 let valid = new PasswordValidator();
-console.log(valid.isPassword("password11"));
+console.log(valid.isPassword("password111"));

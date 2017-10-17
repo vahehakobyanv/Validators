@@ -11,4 +11,4 @@ class ArmPhoneValidator extends Validator{
 }
 let number = new ArmPhoneValidator();
 console.log(number.isArmPhoneNumberValid("+37495037865"));
-console.log(number.isArmPhoneNumberValid("+37466666666"));
+console.log(number.isArmPhoneNumberValid("+374666666661"));

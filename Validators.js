@@ -66,7 +66,7 @@ module exports = class Validator
       }
       for(let ix = 0; ix < sym.length; ++ix)
       {
-        if((sym.charCodeAt(ix) >=48 && sym.charCodeAt(ix) <=57) ||(sym.charCodeAt(ix) >=65 && sym.charCodeAt(ix) <=90) || (sym.charCodeAt(ix) >=97 && sym.charCodeAt(ix) <=122))
+        if((sym.charCodeAt(ix) >= 48 && sym.charCodeAt(ix) <= 57) ||(sym.charCodeAt(ix) >= 65 && sym.charCodeAt(ix) <= 90) || (sym.charCodeAt(ix) >=97 && sym.charCodeAt(ix) <=122))
         {
           return false;
         }
