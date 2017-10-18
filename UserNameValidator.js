@@ -7,7 +7,7 @@ class UsernameValidator extends Validator{
 	   return false;
 	for(let ix = 0; ix < username.length; ++ix)
 	 {
-		if((sym.charCodeAt(ix) <=47 || sym.charCodeAt(ix) >=58) && (sym.charCodeAt(ix) <=64 || sym.charCodeAt(ix) >=91) && (sym.charCodeAt(ix) <=98 && sym.charCodeAt(ix) >=122) && sym.charCodeAt(ix) != 95)
+		if((username.charCodeAt(ix) <=47 || username.charCodeAt(ix) >=58) && (username.charCodeAt(ix) <=64 || username.charCodeAt(ix) >=91) && (username.charCodeAt(ix) <=98 && username.charCodeAt(ix) >=122) && username.charCodeAt(ix) != 95)
 		{
 			return false;
 		}
