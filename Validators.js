@@ -1,10 +1,10 @@
-module exports = class Validator
+module.exports = class Validator
 {
   isString(str)
   {
     if(!str.length)
     {
-      return false;
+       return false;
     }
     if(typeof str === 'string')
     {
@@ -82,8 +82,5 @@ module exports = class Validator
      return false;
    }
 }
-let a = new Validator();
-let k =new Date();
-console.log(a.isNumber(NaN));
 
 
